@@ -167,3 +167,9 @@ nav ul li a {
     padding: .5% 1%;
     border-radius: 10px;
 }
+.contact{
+    background-color: rgb(41, 39, 39);
+    height:100vh;
+    margin-top:300px;
+    padding: 5%;
+}
