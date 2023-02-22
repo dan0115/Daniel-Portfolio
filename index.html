@@ -9,6 +9,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Symbols&family=Poppins:wght@500&family=Roboto&display=swap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://kit.fontawesome.com/82fac282cd.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Bootstrap</title>
 </head>
@@ -69,17 +70,24 @@
         <div class="contact_container">
             <div class="contact-row">
                 <div class="contact-left">
+                    <h2>Contact Me</h2>
+                    <p><i class="fa-brand fa solid fa-envelope-circle-check"></i>youremail@gmail.com</p>
+                    <p><i class="fa-solid fa-phone"></i>09098303112</p>
+                    <br>
                     <div class="contact-left_icons">
-
+                        <a><i class="fa-brands fa-facebook"></i></a>
+                        <a><i class="fa-brands fa-linkedin"></i></a>
                     </div>
-                    <a href="#"class="download btn">Download Cv</a>
+                    <a href="download/dl.pdf" download class="contact-btn contact-btn--1">Download Cv</a>
                 </div>
                 <div class="contact-right">
                     <form action="text">
-                        <input type="text">
-                        <input type="text">
-                    <textarea name="" id="" cols="30" rows="10"></textarea>
-                    </form>
+                        <input type="text" placeholder="Your name" required>
+                        <input type="text" placeholder="Your email" required>
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                   
+                </form>
+                <button type="Submit" class="contact-btn contact-btn--2">submit</button> 
                 </div>
             </div>
 </div>
@@ -87,8 +95,10 @@
 
         </div>
     </section>
+    <footer>
     <!-- footer section -->
-
+    <p>Copyright 2023 &copy; Daniel Yecla</p>
+</footer>
 </body>
 
 </html>
