@@ -124,11 +124,12 @@ nav ul li a {
 }
 
 .portfolio {
-    height: 80vh;
+    height: 100vh;
     padding: 50px 0;
     text-align: center;
     color: black;
     font-size: 60px;
+    background-color: #312d2d;
 }
 
 .portfolio_container {
@@ -171,7 +172,6 @@ nav ul li a {
 .contact {
     background-color: rgb(41, 39, 39);
     height: 70vh;
-    margin-top: 300px;
     padding: 5%;
 }
 
@@ -227,6 +227,7 @@ nav ul li a {
 
     color: white;
     width: fit-content;
+
 }
 
 .contact-btn:hover {
@@ -257,11 +258,10 @@ border-radius: 10px;
 
 }
 .contact-btn.contact-btn--2{
-    display: inline-block;
+    display: flex;
     background-color: #312d2d;
     font-size: 18px;
-    justify-content: center;
-    align-items: center;
+  
 
 }
 .contact-btn.contact-btn--2:hover{
